@@ -3,10 +3,12 @@ package com.bikkadIt.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.bikkadIt.model.Student;
 import com.bikkadIt.repository.StudentRepository;
 
+@Service
 public class StudentServiceImpl implements StudentServiceI{
 	
 	@Autowired
